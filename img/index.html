@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Juan Pablo Montoya — Perfil</title>
+  <meta name="description" content="Perfil, hoja de vida y recursos multimedia sobre Juan Pablo Montoya." />
+  <style>
+    :root{
+      --bg:#f7f7f9;
+      --card:#ffffff;
+      --accent:#fecb2e; /* amarillo */
+      --primary:#0033a0; /* azul */
+      --secondary:#c8102e; /* rojo */
+      --muted:#6b7280;
+      --max-width:1000px;
+      font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;background:var(--bg);color:#111}
+    .container{max-width:var(--max-width);margin:36px auto;padding:20px}
+    header{display:flex;gap:20px;align-items:center}
+    .brand{display:flex;flex-direction:column}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    .hero{background:linear-gradient(90deg, rgba(0,51,160,0.06), rgba(200,16,46,0.03));border-radius:12px;padding:22px;display:flex;gap:18px;align-items:center}
+    .hero img{width:160px;height:100px;object-fit:cover;border-radius:8px;border:2px solid rgba(0,0,0,0.06)}
+    nav{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
+    .btn{background:var(--primary);color:white;padding:8px 12px;border-radius:8px;text-decoration:none;font-weight:600}
+    main{margin-top:22px;display:grid;grid-template-columns:1fr 340px;gap:22px}
+    @media (max-width:900px){main{grid-template-columns:1fr}}
+    .card{background:var(--card);border-radius:10px;padding:18px;box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+    .section-title{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+    h2{margin:0;font-size:20px}
+    .cv-list{list-style:none;padding:0;margin:0}
+    .cv-list li{padding:8px 0;border-bottom:1px dashed #eee}
+    table{width:100%;border-collapse:collapse}
+    th,td{padding:8px;text-align:left;border-bottom:1px solid #f1f1f1}
+    .muted{color:var(--muted);font-size:14px}
+    .tag{display:inline-block;padding:6px 8px;border-radius:999px;background:rgba(0,51,160,0.07);font-weight:600;color:var(--primary);}
+    .gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+    .media-placeholder{height:120px;background:#1110;border-radius:8px;display:flex;align-items:center;justify-content:center;color:var(--muted)}
+    footer{margin-top:20px;text-align:center;color:var(--muted);font-size:13px}
+    .download{display:inline-block;margin-top:8px;padding:10px 14px;border-radius:8px;background:var(--accent);color:#111;font-weight:700;text-decoration:none}
+    .contact-form{display:flex;flex-direction:column;gap:8px}
+    input,textarea{padding:10px;border-radius:8px;border:1px solid #e6e6e9}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <h1>Juan Pablo Montoya</h1>
+        <p class="lead">El legado de la velocidad — Piloto colombiano</p>
+      </div>
+      <div style="margin-left:auto;text-align:right">
+        <span class="tag">Perfil público</span>
+        <div class="muted" style="margin-top:6px">Actualizado: 15 de octubre de 2025</div>
+      </div>
+    </header>
+
+    <section class="hero card" aria-labelledby="intro">
+      <img src="juan pablo montuya F1.jpg" alt="Juan Pablo Montoya en competición" />
+      <div>
+        <h2 id="intro">El legado de la velocidad: la historia de Juan Pablo Montoya</h2>
+        <p class="muted">Piloto nacido en Bogotá (20 de septiembre de 1975). Esta página recopila su biografía, hoja de vida, logros y material multimedia para aficionados y estudiantes del automovilismo.</p>
+        <nav>
+          <a class="btn" href="#biografia">Biografía</a>
+          <a class="btn" href="#cv">Hoja de vida</a>
+          <a class="btn" href="#multimedia">Multimedia</a>
+        </nav>
+      </div>
+    </section>
+
+    <main>
+      <div>
+        <section id="biografia" class="card" aria-labelledby="biotitle">
+          <div class="section-title"><h2 id="biotitle">Biografía</h2><span class="muted">Resumen y cronología</span></div>
+          <p>Juan Pablo Montoya es uno de los pilotos más destacados en la historia del automovilismo colombiano e internacional. Famoso por su versatilidad, ha competido y ganado en categorías como CART/IndyCar, Fórmula 1, NASCAR y campeonatos de resistencia.</p>
+
+          <h3 style="margin-top:14px">Cronología seleccionada</h3>
+          <ul class="cv-list" style="margin-top:8px">
+            <li><strong>1999:</strong> Campeón de la Serie CART.</li>
+            <li><strong>2000:</strong> Ganador de las 500 Millas de Indianápolis.</li>
+            <li><strong>2001–2006:</strong> Piloto en Fórmula 1 con Williams y McLaren.</li>
+            <li><strong>2007–2014:</strong> Participación en NASCAR y otras competiciones.</li>
+            <li><strong>2015:</strong> Segunda victoria en las 500 Millas de Indianápolis.</li>
+          </ul>
+        </section>
+
+        <section id="cv" class="card" style="margin-top:18px" aria-labelledby="cvtitle">
+          <div class="section-title"><h2 id="cvtitle">Hoja de vida</h2><a class="download" href="#">Descargar CV (PDF)</a></div>
+          <table>
+            <tr><th>Nombre</th><td>Juan Pablo Montoya Roldán</td></tr>
+            <tr><th>Fecha de nacimiento</th><td>20 de septiembre de 1975</td></tr>
+            <tr><th>Lugar</th><td>Bogotá, Colombia</td></tr>
+            <tr><th>Profesión</th><td>Piloto de automovilismo profesional</td></tr>
+          </table>
+
+          <h3 style="margin-top:12px">Logros destacados</h3>
+          <ul class="cv-list" style="margin-top:8px">
+            <li>Ganador de las 500 Millas de Indianápolis (2000, 2015).</li>
+            <li>Campeón de la Serie CART (1999).</li>
+            <li>Victorias y podios en Fórmula 1.</li>
+            <li>Participación notable en NASCAR y resistencia.</li>
+          </ul>
+        </section>
+        <section id="multimedia" class="card" style="margin-top:18px" aria-labelledby="multititle">
+          <div class="contenedor-columnas">
+            <div class="columna">
+            <img src="winner.jpg" alt="imagen1">
+            <div class="contenedor-columnas">
+             <img src="juanpa.jpg" alt="juanpa" width="250" height="350">
+            </div>
+            <div class="columna"></div>
+            <video controls autoplay src="monaco_2003.mp4">video</video>
+            <video class="monaco_2003.mp4">Video destacado</video>
+            <div class="contenedor-columnas">
+            <video controls autoplay src="entrevista.mp4" width="350" height="300">entrevista</video>
+            <video class="entrvista.mp4">Entrevista</video>
+            </div>
+          </div>
+          <p class="muted" style="margin-top:10px">Nota: reemplaza las miniaturas por material con derechos adecuados antes de publicar.</p>
+        </section>
+
+        <section id="proposito" class="card" style="margin-top:18px" aria-labelledby="prop">
+          <div class="section-title"><h2 id="prop">Propósito del sitio</h2><span class="muted">Objetivos</span></div>
+          <p>Rendir homenaje a la trayectoria de Juan Pablo Montoya y difundir su legado. La web busca ser una fuente educativa y visual para fanáticos y futuros pilotos, ofreciendo biografía, estadísticas, recursos y noticias actualizadas.</p>
+        </section>
+
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3>Datos rápidos</h3>
+          <p class="muted">Selección de información útil.</p>
+          <ul style="padding-left:18px">
+            <li><strong>Nacionalidad:</strong> Colombiana</li>
+            <li><strong>Especialidad:</strong> Monoplazas, resistencia y stock cars</li>
+            <li><strong>Palmarés:</strong> IndyCar, F1, NASCAR</li>
+          </ul>
+          <hr style="margin:12px 0;border:none;border-top:1px solid #f1f1f1" />
+          <h4>Contacto</h4>
+          <form class="contact-form" onsubmit="alert('Formulario de ejemplo — implementar backend.');return false;">
+            <input type="text" placeholder="Nombre" required />
+            <input type="email" placeholder="Correo" required />
+            <textarea rows="4" placeholder="Mensaje"></textarea>
+            <button type="submit" class="btn">Enviar</button>
+          </form>
+        </div>
+
+        <div class="card" style="margin-top:16px">
+          <h3>Diseño sugerido</h3>
+          <p class="muted">Paleta: amarillo, azul y rojo (tonos sobrios). Tipografías: serif para títulos y sans-serif para texto.</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="muted">© 2025 — Perfil informativo. Verifique derechos de imagen y fuentes antes de publicar.</div>
+    </footer>
+  </div>
+</body>
+</html>
